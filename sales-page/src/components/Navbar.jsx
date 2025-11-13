@@ -1,4 +1,3 @@
-// src/components/Navbar.js
 import React, { useState, useEffect } from "react";
 
 const Navbar = () => {
@@ -35,10 +34,6 @@ const Navbar = () => {
             Get Started
           </a>
         </div>
-      </div>
-      {/* AdSense Ad Placement */}
-      <div className="mt-8">
-        <AdSense adSlot="4625870242" className="mx-auto" />
       </div>
     </nav>
   );

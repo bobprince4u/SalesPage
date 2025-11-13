@@ -1,8 +1,12 @@
-// src/components/Hero.js
 import React from "react";
+import AdSense from "./AdSense";
 
 const Hero = () => (
   <header className="text-center py-20 px-4">
+    {/* AdSense Ad Placement */}
+    <div className="mt-8">
+      <AdSense adSlot="4625870242" className="mx-auto" />
+    </div>
     <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mb-6">
       Stop Guessing, <span className="text-blue-600">Start Building.</span>
     </h1>
