@@ -23,3 +23,15 @@ const AdSense = ({ adSlot, adFormat = "auto", className = "" }) => {
 };
 
 export default AdSense;
+
+{
+  /*<!-- ken1 -->
+    <ins
+      class="adsbygoogle"
+      style="display: block"
+      data-ad-client="ca-pub-5429302295241294"
+      data-ad-slot="4625870242"
+      data-ad-format="auto"
+      data-full-width-responsive="true"
+    ></ins>*/
+}
