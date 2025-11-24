@@ -29,7 +29,7 @@ const Footer = () => (
       </div>
       {/* AdSense Ad Placement */}
       <div className="mt-8">
-        <AdSense adSlot="4625870242" className="mx-auto" />
+        <AdSense adSlot="" className="mx-auto" />
       </div>
     </div>
   </footer>
