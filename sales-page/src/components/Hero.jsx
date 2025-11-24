@@ -1,10 +1,10 @@
 import React from "react";
-import AdsterraAd from "./AdsterraAd";
+import NativeAd from "./NativeAdAd";
 
 const Hero = () => (
   <header className="text-center py-20 px-4">
     <div className="mt-8">
-      <AdsterraAd className="mx-auto" />
+      <NativeAd className="mx-auto" />
     </div>
     <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mb-6">
       Stop Guessing, <span className="text-blue-600">Start Building.</span>
