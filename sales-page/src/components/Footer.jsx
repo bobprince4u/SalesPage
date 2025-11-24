@@ -1,6 +1,6 @@
 // src/components/Footer.js
 import React from "react";
-import AdSense from "./AdSense";
+import AdsterraAd from "./AdsterraAd";
 
 const Footer = () => (
   <footer className="bg-gray-800 text-white py-12">
@@ -29,7 +29,7 @@ const Footer = () => (
       </div>
       {/* AdSense Ad Placement */}
       <div className="mt-8">
-        <AdSense adSlot="" className="mx-auto" />
+        <AdsterraAd className="mx-auto" />
       </div>
     </div>
   </footer>
